@@ -1,0 +1,151 @@
+---
+title: ""
+subtitle: ""
+author: 
+  - Ziheng Zhong
+  - YingKe He
+thanks: "Code and data are available at: https://github.com/iJustinn/Grocery_Price.git"
+date: today
+date-format: long
+abstract: ""
+format: pdf
+toc: true
+toc-depth: 3
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+# Library Setup
+library(here)
+library(readr)
+library(dplyr)
+library(usethis)
+library(tidyverse)
+library(lubridate)
+library(kableExtra)
+
+# Load the data
+
+
+```
+
+
+
+# Introduction
+
+
+
+The structure of this paper is organized as follows: @sec-data presents the data sources, methodologies, and the visualization of the results. The findings are then discussed in @sec-dis, and additional detailed information is provided in the appendix at @sec-app.
+
+
+
+# Data {#sec-data}
+
+The dataset [@citeData] comprises historical grocery prices collected from major Canadian retailers, including Voila, T&T, Loblaws, No Frills, Metro, Galleria, Walmart, and Save-On-Foods, spanning from February 28, 2024, to November 12, 2024. This comprehensive collection aims to facilitate academic research and legal analysis by providing insights into pricing trends and potential market behaviors within Canada's grocery sector. 
+
+This project is motivated and guided by Rohan Alexander and his book [@citeTbook]. Data used in this paper were downloaded, cleaned and analyzed with the programming language `R` [@citeR]. Also with the support of additional packages in R: `dplyr` [@citeDplyr], `usethis` [@citeUsethis], `magrittr` [@citeMagrittr], `spotifyr` [@citeSpotifyr], `tidyverse` [@citeTidyverse], `lubridate` [@citeLubridate], `here` [@citeHere] and `readr` [@citeReadr].
+
+## Source
+
+
+
+Method of how data was processed can be found in @sec-app.
+
+## Measurement
+
+
+
+### Acousticness
+
+
+
+### Energy
+
+
+
+### Danceability
+
+
+
+## Results
+
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-energy
+#| fig-cap: "Distribution of Energy of Linkin Park Songs Over Time (2002-2023)"
+#| warning: false
+#| message: false
+#| fig-height: 6
+#| fig-width: 7
+
+
+
+```
+
+
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-dance
+#| fig-cap: "Distribution of Danceability of Linkin Park Songs Over Time (2002-2023)"
+#| warning: false
+#| message: false
+#| fig-height: 6
+#| fig-width: 7
+
+
+
+```
+
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| label: fig-acoustic
+#| fig-cap: "Distribution of Acousticness of Linkin Park Songs Over Time (2002-2023)"
+#| warning: false
+#| message: false
+#| fig-height: 6
+#| fig-width: 7
+
+
+
+```
+
+
+
+# Discussion {#sec-dis}
+
+## The transition
+
+
+
+## Weaknesses and next steps
+
+
+
+\newpage
+
+
+
+\appendix
+
+# Appendix {#sec-app}
+
+
+
+\newpage
+
+
+# References
+
+
